@@ -1,0 +1,23 @@
+// http client extension as a replacement for postman (personal preference) - REST CLIENT
+
+
+
+POST http://localhost:8000/api/auth/signup
+Content-Type: application/x-www-form-urlencoded
+
+username=h
+&password=123423142131212
+&confPassword=123423142131212
+&email=rwe@asdaasdfsdsdfasdfasdfasdfasdf3w.com
+
+###
+
+POST http://localhost:8000/api/auth/login
+Content-Type: application/x-www-form-urlencoded
+
+email=tessafasdfasdfasdfasdfasdfasdfasdfasdfasdft@test.com
+&password=123
+
+###
+
+GET http://localhost:8000/
